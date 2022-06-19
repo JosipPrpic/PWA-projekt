@@ -2,14 +2,14 @@
 Repozitorij za pohranu svih resursa za izradu projekta iz kolegija Programiranje Web aplikacija
 
 -----------------------------------------------------------------------------------------------
-**Import baze podataka**
+**1. Import baze podataka**
 
 Priložena je glavna (i jedina) tablica "vijesti.sql". Za ispravan rad projekta potrebno je
 u phpmyadmin sučelju kreirati bazu podataka sa imenom "pwa_projekt" te unutar novokreirane baze
 importati tablicu vijesti.sql
 
 -----------------------------------------------------------------------------------------------
-**Općenite informacije o projektu**
+**2. Općenite informacije o projektu**
 
 Projekt se sastoji od rekreiranog news portala Frankfurter Allgemeine, prema slikama preuzetim
 sa LMS-a kolegija.
@@ -24,15 +24,16 @@ Struktura portala je sljedeća:
 - login.php stranica za login administratora (osobe koja objavljuje članke)
 
 -----------------------------------------------------------------------------------------------
-**Korisnički podatci za admin prijavu**
+**3. Korisnički podatci za admin prijavu**
 
-- username: admin
-- password: adminpass
-
+```
+username: admin
+password: adminpass
+```
 -----------------------------------------------------------------------------------------------
-**Mogući bug-ovi i rješenja**
+**4. Mogući bug-ovi i rješenja**
 
-**_Vijesti se ne prikazuju na početnoj/vijesti/sport stranici:_**
+**_4.1 Vijesti se ne prikazuju na početnoj/vijesti/sport stranici:_**
 
 Najčešći bug koji mi se događao tijekom izrade projekta je da odjednom sve vijesti nestanu sa
 početne, vijesti i sport stranica. To se dogodi ako konekcija sa bazom "pukne". Najjednostavnije
@@ -40,7 +41,7 @@ rješenje je brisanje tablice vijesti.sql te ponovni import iste, ukoliko standa
 ne pomogne. Ako se problem i dalje nastavi tada bi trebalo izbrisati cijelu bazu te je ponovno
 kreirati i importati tablicu.
 
-**_Administratorska prijava ne radi, iako je dobar username i password:_**
+**_4.2 Administratorska prijava ne radi, iako je dobar username i password:_**
 
 Provjerite ima li u root direktoriju projekta direktorij koji se zove users, te ima li unutar
 njega file "admin.xml". Ako direktorij i/ili file ne postoji, kreirajte navedeni direktorij u 
