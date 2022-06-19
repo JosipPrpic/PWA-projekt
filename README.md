@@ -44,6 +44,8 @@ Provjerite ima li u root direktoriju projekta direktorij koji se zove users, te 
 njega file "admin.xml". Ako direktorij i/ili file ne postoji, kreirajte navedeni direktorij u 
 rootu i unutar njega novi XML file "admin.xml". U admin.xml zaljepite sljedeći kod:
 
-><?xml version="1.0"?>
-><user><password>25e4ee4e9229397b6b17776bfceaf8e7</password><email>admin@corp.com</email></user>
+```
+<?xml version="1.0"?>
+<user><password>25e4ee4e9229397b6b17776bfceaf8e7</password><email>admin@corp.com</email></user>
+```
 
