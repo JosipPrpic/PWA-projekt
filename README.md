@@ -1,6 +1,8 @@
 # PWA-projekt
 Repozitorij za pohranu svih resursa za izradu projekta iz kolegija Programiranje Web aplikacija
 
+Videozapis sa demonstracijom funkcionalnosti projekta: https://youtu.be/N8zI8t9dsvE
+
 -----------------------------------------------------------------------------------------------
 **1. Import baze podataka**
 
