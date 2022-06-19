@@ -32,7 +32,7 @@ Struktura portala je sljedeća:
 -----------------------------------------------------------------------------------------------
 **Mogući bug-ovi i rješenja**
 
-#Vijesti se ne prikazuju na početnoj/vijesti/sport stranici:
+**_Vijesti se ne prikazuju na početnoj/vijesti/sport stranici:_**
 
 Najčešći bug koji mi se događao tijekom izrade projekta je da odjednom sve vijesti nestanu sa
 početne, vijesti i sport stranica. To se dogodi ako konekcija sa bazom "pukne". Najjednostavnije
@@ -40,7 +40,7 @@ rješenje je brisanje tablice vijesti.sql te ponovni import iste, ukoliko standa
 ne pomogne. Ako se problem i dalje nastavi tada bi trebalo izbrisati cijelu bazu te je ponovno
 kreirati i importati tablicu.
 
-#Administratorska prijava ne radi, iako je dobar username i password:
+**_Administratorska prijava ne radi, iako je dobar username i password:_**
 
 Provjerite ima li u root direktoriju projekta direktorij koji se zove users, te ima li unutar
 njega file "admin.xml". Ako direktorij i/ili file ne postoji, kreirajte navedeni direktorij u 
