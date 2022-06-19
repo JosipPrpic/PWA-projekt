@@ -1,0 +1,27 @@
+body {
+    color: white;
+}
+
+#admin-wrapper {
+    width: 100%;
+    height: 1000px;
+    /* background-color: aqua; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+#add-article {
+    width: 800px;
+    height: max-content;
+    text-align: center;
+    margin-left: 200px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+}

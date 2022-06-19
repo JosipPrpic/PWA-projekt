@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#article-main {
+    width: 100%;
+    height: max-content;
+}
+
+#article-img {
+    width: 100%;
+    height: max-content;
+}
+
+#article-header {
+    width: 100%;
+    height: max-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+#article-text {
+    width: 100%;
+    height: max-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+#form-wrapper {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+input {
+    border: 2px solid black;
+}
+
+#log-line {
+    width: 500px;
+    border: 1px solid black;
+    margin:  0 auto;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------- */
+
+#vs-item-wrapper {
+    width: 400px;
+    height: 800px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+form .error {
+    color: #ff0000;
+}
+
+#error-msg {
+    color: red;
+}
+

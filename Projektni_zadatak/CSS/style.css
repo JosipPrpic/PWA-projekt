@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+html {
+    background-color: rgb(202, 202, 202);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(226, 226, 226);
+}
+
+#header-cont {
+    width: 1200px;
+    height: 80px;
+    /* background-color: black; */
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+#nav {
+    width: 100%;
+    height: 80px;
+}
+
+#nav-item-cont {
+    width: 290px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#nav-item-cont a {
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nav-item-cont a:hover {
+    color: gray;
+}
+
+#main {
+    width: 100%;
+    height: max-content;
+    background-color: black;
+}
+
+#main-cont {
+    width: 1200px;
+    height: max-content;
+    margin: 0 auto;
+}
+
+#main-header {
+    width: 100%;
+    height: 240px;
+    padding-top: 5px;
+}
+
+#main-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#main-politics {
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+}
+
+#main-politics aside {
+    width: 200px;
+    height: 600px;
+    float: left;
+    /* background-color: red; */
+    border-top: 10px solid black;
+}
+
+#main-politics section {
+    width: 1000px;
+    height: 600px;
+    /* background-color: blue; */
+    float: right;
+}
+
+#aside-h1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#pol-item {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: max-content;
+}
+
+#pol-img {
+    width: 100%;
+    height: max-content;
+}
+
+#pol-naslov {
+    width: 100%;
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#kratki-tekst {
+    width: 100%;
+    height: 250px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+#clanak-out {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+}
+
+#clanak-out:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 50px;
+}
+
+footer h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
