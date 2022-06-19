@@ -8,6 +8,8 @@ Priložena je glavna (i jedina) tablica "vijesti.sql". Za ispravan rad projekta 
 u phpmyadmin sučelju kreirati bazu podataka sa imenom "pwa_projekt" te unutar novokreirane baze
 importati tablicu vijesti.sql
 
+**_Tablica se nalazi unutar direktorija "baza_podataka" u rootu repozitorija!_**
+
 -----------------------------------------------------------------------------------------------
 **2. Općenite informacije o projektu**
 
@@ -43,12 +45,19 @@ kreirati i importati tablicu.
 
 **_4.2 Administratorska prijava ne radi, iako je dobar username i password:_**
 
-Provjerite ima li u root direktoriju projekta direktorij koji se zove users, te ima li unutar
-njega file "admin.xml". Ako direktorij i/ili file ne postoji, kreirajte navedeni direktorij u 
-rootu i unutar njega novi XML file "admin.xml". U admin.xml zaljepite sljedeći kod:
+Provjerite ima li u root direktoriju projekta direktorij koji se zove _users_, te ima li unutar
+njega file "_admin.xml_". Ako direktorij i/ili file ne postoji, kreirajte navedeni direktorij 
+_users_ u rootu i unutar njega novi XML file "_admin.xml_". U admin.xml zaljepite sljedeći kod:
 
 ```
 <?xml version="1.0"?>
 <user><password>25e4ee4e9229397b6b17776bfceaf8e7</password><email>admin@corp.com</email></user>
 ```
+
+**_4.3 Novounesene vijesti kroz administratorski panel se ne pojavljuju u bazi, a nema errora:_**
+
+Ovdje je ponovno moguće da konekcija prema bazi ne radi. Provjerite da li je upaljen MySQL modul
+u korisničkom panelu XAMPP-a. Ponekad mi se znalo dogoditi da se MySQL modul ničim izazvan ugasi.
+Ako se problem i dalje nastavi događati, probajte isto rješenje kao u stavci 4.1.
+
 
